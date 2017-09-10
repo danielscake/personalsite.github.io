@@ -1,18 +1,46 @@
-body{
-    color:white;
+body {
+    color: white;
 }
 
-h1{
+h1 {
     font-family: "Rubik", Arial, sans-serif !important;
     font-weight: 700 !important;
 }
 
-p{
-    font-family:"Roboto Mono", Times, sans-serif;
-    font-weight:300;
+h2 {
+    font-family: "Roboto Mono", Times, sans-serif;
+    font-weight: 300;
     font-size: 20px;
 }
 
-.greentext{
-    color:#2ecc71;
+p1 {
+    font-family: "Roboto", Times, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.greentext {
+    color: #2ecc71;
+}
+
+.header {}
+
+.project-title {
+    font-size: 32px;
+    font-weight: 500 !important;
+}
+
+.project-image {
+    max-height: 17vw;
+    min-height: 12vw;
+    max-width:17vw;
+    min-width: 17vw;
+}
+
+.project-paragraph {
+    padding: 20px;
+}
+
+.bold{
+    font-weight:700;
 }
