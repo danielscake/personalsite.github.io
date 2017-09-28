@@ -33,17 +33,11 @@ p1 {
 }
 
 .project-image {
-    max-height: 17vw;
-    min-height: 12vw;
-    max-width:17vw;
-    min-width: 17vw;
+    height: 150px;
 }
 
 .human-image {
-    max-height: 17vw;
-    min-height: 12vw;
-    max-width:17vw;
-    min-width: 17vw;
+    max-width:300px;
     border-radius: 50%;
     margin-top: 15px;
 }
@@ -53,6 +47,11 @@ p1 {
 
 .bold{
     font-weight:700;
+}
+
+.btn-green{
+    padding:15px;
+    background-color:#2ecc71;
 }
 
 
