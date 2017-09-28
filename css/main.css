@@ -23,7 +23,9 @@ p1 {
     color: #2ecc71;
 }
 
-.header {}
+.header {
+    margin-top: 15px;
+}
 
 .project-title {
     font-size: 32px;
@@ -37,6 +39,14 @@ p1 {
     min-width: 17vw;
 }
 
+.human-image {
+    max-height: 17vw;
+    min-height: 12vw;
+    max-width:17vw;
+    min-width: 17vw;
+    border-radius: 50%;
+    margin-top: 15px;
+}
 .project-paragraph {
     padding: 20px;
 }
@@ -44,3 +54,5 @@ p1 {
 .bold{
     font-weight:700;
 }
+
+
