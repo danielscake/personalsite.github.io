@@ -19,8 +19,19 @@ p1 {
     font-size: 14px;
 }
 
+p2 {
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
 .greentext {
     color: #2ecc71;
+}
+
+.whitetext {
+    color: #fff;
 }
 
 .header {
