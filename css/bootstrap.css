@@ -2890,10 +2890,10 @@ tbody.collapse.show {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #212529;
+  color: #fff;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #333333;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -2934,7 +2934,7 @@ tbody.collapse.show {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: #fff;
   text-align: inherit;
   white-space: nowrap;
   background: none;
@@ -4047,7 +4047,7 @@ tbody.collapse.show {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 1%;
-    margin-bottom: 50px;
+    margin-bottom: 50px;    margin-bottom: 50px;
 }
 
 .card > hr {
@@ -4147,7 +4147,9 @@ tbody.collapse.show {
 .card-img-top {
   width: 100%;
   border-top-left-radius: calc(0.25rem - 1px);
+      border-bottom-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
+      border-bottom-right-radius: calc(0.25rem - 1px);
 }
 
 .card-img-bottom {
