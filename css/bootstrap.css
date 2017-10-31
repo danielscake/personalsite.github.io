@@ -2362,13 +2362,13 @@ fieldset[disabled] a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #2ecc71;
+  border-color: #2ecc71;
 }
 
 .btn-success:hover {
   color: #fff;
-  background-color: #218838;
+  background-color: #23a358;
   border-color: #1e7e34;
 }
 
@@ -4045,7 +4045,8 @@ tbody.collapse.show {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 1%;
+    margin-bottom: 50px;
 }
 
 .card > hr {
@@ -4066,7 +4067,6 @@ tbody.collapse.show {
 .card-body {
   -ms-flex: 1 1 auto;
       flex: 1 1 auto;
-  padding: 1.25rem;
 }
 
 .card-title {
@@ -5717,7 +5717,7 @@ a.bg-light:focus, a.bg-light:hover {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color:  #2c343d !important;
 }
 
 a.bg-dark:focus, a.bg-dark:hover {
