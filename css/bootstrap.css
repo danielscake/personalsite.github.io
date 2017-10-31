@@ -3690,6 +3690,7 @@ tbody.collapse.show {
     padding-right: 0;
     padding-left: 0;
   }
+    
 }
 
 @media (min-width: 576px) {
@@ -4070,7 +4071,9 @@ tbody.collapse.show {
 }
 
 .card-title {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
+  margin-top: -0.5rem;
+    
 }
 
 .card-subtitle {

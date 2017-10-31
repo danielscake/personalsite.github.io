@@ -47,11 +47,6 @@ p2 {
     margin-top:10%;
     margin-bottom:5%;
 }
-.project-title {
-    font-size: 32px;
-    font-weight: 500 !important;
-}
-
 
 .human-image {
     max-width:250px;
@@ -71,6 +66,23 @@ p2 {
 .bold{
     font-weight:700;
 }
+
+.card-title{
+    font-size:calc(15px + 0.9vw);
+    padding-right:38%;
+}
+.card-text{
+        font-size:calc(14px + 0.3vw);
+        padding-right:38%;
+}
+
+.footer{
+    background-color: #333;
+        padding:1%;
+    margin-top: 300px;
+}
+
+
 
 
 
