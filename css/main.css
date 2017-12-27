@@ -87,6 +87,7 @@ p2 {
     margin-right:15px;
     margin-bottom:15px;
     color: #ffffff !important;
+    
 }
 
 .pad{
@@ -110,6 +111,12 @@ p2 {
 }
 
 .navbar-toggler{
-    background-color: #2ecc71 !important;c
+    background-color: #2ecc71 !important; 
+    color: #ffffff !important;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
