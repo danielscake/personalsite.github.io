@@ -68,12 +68,18 @@ p2 {
 }
 
 .card-title{
-    font-size:calc(15px + 0.9vw);
+    font-size:calc(11px + 0.9vw);
     padding-right:38%;
+     font-weight:700;
 }
 .card-text{
-        font-size:calc(14px + 0.2vw);
-        padding-right:38%;
+        font-size:calc(13px + 0.2vw);
+        padding-right:38%;   
+}
+
+
+.card {
+        margin: 10px;
 }
 
 .footer{
@@ -87,7 +93,7 @@ p2 {
     margin-right:15px;
     margin-bottom:15px;
     color: #ffffff !important;
-    
+    background-color: #2ecc71 !important; 
 }
 
 .pad{
@@ -120,3 +126,21 @@ p2 {
   border-color: rgba(255, 255, 255, 0.1);
 }
 
+.hongkong{
+    width:40px;
+    margin-left:10px;
+}
+
+.alert{
+  position: relative;
+  padding: 0.4rem 0.7rem !important;
+  margin: 1rem !important;
+  border: 1px solid transparent;
+  border-radius: 0.20rem !important;   
+}
+
+.alert-danger {
+  color: #ffffff !important;
+  background-color: #ef435d !important;
+  border-color: #ef435d !important;
+}
